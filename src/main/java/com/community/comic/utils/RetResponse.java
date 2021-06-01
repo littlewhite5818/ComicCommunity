@@ -1,4 +1,4 @@
-package com.comiccommunity.comic.utils;
+package com.community.comic.utils;
 
 /**
  * @author：hanzhigang
