@@ -1,6 +1,6 @@
 package com.community.comic.mapper;
 
-import com.community.comic.pojo.TStu;
+import com.community.comic.pojo.AuthUser;
 import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Repository;
 
@@ -13,5 +13,5 @@ import java.util.List;
 @Mapper
 @Repository
 public interface UserMapper {
-    List<TStu> sel(int id);
+    List<AuthUser> sel(int id);
 }

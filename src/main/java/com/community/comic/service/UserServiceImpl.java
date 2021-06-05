@@ -1,7 +1,7 @@
 package com.community.comic.service;
 
 import com.community.comic.mapper.UserMapper;
-import com.community.comic.pojo.TStu;
+import com.community.comic.pojo.AuthUser;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -17,7 +17,7 @@ public class UserServiceImpl implements UserService {
     @Autowired
     private UserMapper userMapper;
     @Override
-    public List<TStu> sel(int id) {
+    public List<AuthUser> sel(int id) {
         return userMapper.sel(id);
     }
 }
